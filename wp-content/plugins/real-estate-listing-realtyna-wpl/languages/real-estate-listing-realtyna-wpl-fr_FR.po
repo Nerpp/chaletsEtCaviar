@@ -2905,7 +2905,7 @@ msgstr "Mappage"
 #: views/backend/users/tmpl/default.php:72
 #: views/backend/users/tmpl/default.php:84
 msgid "Actions"
-msgstr "actes"
+msgstr "Actions"
 
 #: _ADDONS/MLS/wp-content/plugins/real-estate-listing-realtyna-wpl/views/backend/addon_mls/tmpl/default.php:63
 #: views/backend/addon_mls/tmpl/default.php:63

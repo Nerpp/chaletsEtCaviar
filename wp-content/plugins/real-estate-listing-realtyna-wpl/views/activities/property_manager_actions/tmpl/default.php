@@ -51,7 +51,7 @@ if(wpl_global::is_multisite()) $source_blog_id = wpl_property::get_property_fiel
     <?php endif; ?>
     <?php if(wpl_users::check_access('confirm', $property_data['user_id'])): ?>
     <div id="pmanager_confirm<?php echo $pid; ?>" class="p-action-btn" onclick="confirm_property(<?php echo $pid; ?>);">
-        <span><?php echo($property_data['confirmed'] == 1 ? __('Publier', 'real-estate-listing-realtyna-wpl') : __('Unpublish', 'real-estate-listing-realtyna-wpl')); ?></span>
+        <span><?php echo($property_data['confirmed'] == 1 ? __('Publier', 'real-estate-listing-realtyna-wpl') : __('Dépublier', 'real-estate-listing-realtyna-wpl')); ?></span>
         <i class="<?php echo($property_data['confirmed'] == 1 ? 'icon-confirm' : 'icon-unconfirm'); ?>"></i>
     </div>
     <?php endif; ?>
