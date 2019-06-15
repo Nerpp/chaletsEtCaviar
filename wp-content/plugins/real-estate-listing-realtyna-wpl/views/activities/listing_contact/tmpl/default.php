@@ -24,7 +24,7 @@ include _wpl_import($this->tpl_path.'.scripts.js', true, true);
         </div>
 
         <div class="form-field">
-            <input class="text-box" type="text" id="wpl_contact_email<?php echo $this->activity_id; ?><?php echo $this->property_id; ?>" name="email" placeholder="<?php echo __('Email', 'real-estate-listing-realtyna-wpl'); ?>" />
+            <input class="text-box" type="text" id="wpl_contact_email<?php echo $this->activity_id; ?><?php echo $this->property_id; ?>" name="email" placeholder="<?php echo __('mail', 'real-estate-listing-realtyna-wpl'); ?>" />
         </div>
 
         <div class="form-field wpl-contact-listing-msg">
