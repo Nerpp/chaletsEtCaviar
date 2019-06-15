@@ -23,7 +23,7 @@ $this->_wpl_import($this->tpl_path.'.scripts.js');
         <?php $this->generate_search_form(); ?>
         
         <div class="mass-panel-wp">
-            <h3><?php echo __("Mass actions", 'real-estate-listing-realtyna-wpl').": "; ?></h3>
+            <h3><?php echo __("actions", 'real-estate-listing-realtyna-wpl').": "; ?></h3>
             <div class="mass-actions-wp p-actions-wp">
                 <div class="group-btn">
                     <div class="mass-btn icon-select-all p-action-btn" onclick="rta.util.checkboxes.selectAll('.properties-wp');">

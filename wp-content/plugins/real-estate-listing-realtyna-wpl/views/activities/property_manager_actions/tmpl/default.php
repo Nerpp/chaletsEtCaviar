@@ -6,6 +6,7 @@ _wpl_import($this->tpl_path . '.scripts.css');
 $property_data = isset($params['property_data']['data']) ? $params['property_data']['data'] : NULL;
 $pid = isset($property_data['id']) ? $property_data['id'] : NULL;
 
+
 $wpl_users = isset($params['wpl_users']) ? $params['wpl_users'] : wpl_users::get_wpl_users();
 
 $source_blog_id = 1;

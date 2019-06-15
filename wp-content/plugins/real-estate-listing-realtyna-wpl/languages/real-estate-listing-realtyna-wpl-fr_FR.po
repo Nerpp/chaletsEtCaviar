@@ -23099,7 +23099,7 @@ msgstr "Supprimé."
 
 #: views/backend/listings/tmpl/manager.php:26
 msgid "Mass actions"
-msgstr "actes"
+msgstr "Actions"
 
 #: views/backend/listings/tmpl/manager.php:30
 msgid "Select all"
